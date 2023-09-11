@@ -2,8 +2,8 @@ leader = {
 	name = "Josef Radetzky"
 	date = 1805.1.1
 	type = land
-	personality = au_fait
-	background = elderly
+	personality = 0.144_defence
+	background = 3.379_attack
 	prestige = 0.3
 }
 
@@ -11,8 +11,8 @@ leader = {
 	name = "Julius von Haynau"
 	date = 1835.1.1
 	type = land
-	personality = wrathful
-	background = natural_born_leader
+	personality = 0.144_defence
+	background = 3.379_attack
 	prestige = 0.1
 }
 
@@ -29,8 +29,8 @@ leader = {
 	name = "Hermann von Hess"
 	date = 1834.1.1
 	type = land
-	personality = aggressive
-	background = generals_aide
+	personality = 1.212_defence
+	background = 1.665_attack
 	prestige = 0.1
 }
 

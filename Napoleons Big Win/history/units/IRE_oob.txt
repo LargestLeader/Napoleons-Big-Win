@@ -9,8 +9,8 @@ leader = {
 	name = "Sir James Charles Chatterton"
 	type = land
 	date="1836.1.1"
-	personality = brilliant
-	background = school_of_defense
+	personality = 3.364_defence
+	background = 5.399_attack
 }
 leader = {
 	name = "Henry Murray"

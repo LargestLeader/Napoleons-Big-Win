@@ -27,7 +27,7 @@ leader = {
 	name = "James Dundas"
 	date = 1836.1.1
 	type = sea
-	personality = cautious
+	personality = 3.376_defence
 	background = elderly
 	prestige = 0.0
 }

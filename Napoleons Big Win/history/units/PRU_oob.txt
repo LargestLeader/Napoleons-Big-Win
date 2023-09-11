@@ -3,7 +3,7 @@ leader = {
 	date = 1813.1.1
 	type = land
 	personality = soldierly
-	background = cavalry_school
+	background = 3.795_attack
 	prestige = 0.2
 }
 
@@ -11,7 +11,7 @@ leader = {
 	name = "Hermann von Boyen"
 	date = 1814.1.1
 	type = land
-	personality = intelligent
+	personality = 2.755_attack
 	background = old_school
 	prestige = 0.2
 }
@@ -20,7 +20,7 @@ leader = {
 	name = "Wilhelm von Krauseneck"
 	date = 1814.1.1
 	type = land
-	personality = reserved
+	personality = 2.755_attack
 	background = engineer
 	prestige = 0.2
 }

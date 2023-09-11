@@ -2,8 +2,8 @@ leader = {
 	name = "Carlo Filangieri"
 	date = 1831.1.1
 	type = land
-	personality = harsh
-	background = generals_aide
+	personality = 2.328_defence
+	background = 1.691_attack
 	prestige = 0.2
 }
 

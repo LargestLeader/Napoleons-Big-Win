@@ -2,16 +2,16 @@ leader = {
 	name = "Robert E.Lee"
 	type = land
 	date="1836.1.1"
-	personality = audacious
-	background = war_college
+	personality = 3.366_defence
+	background = 3.787_attack
 	picture="european_general_38"
 }
 leader = {
 	name = "Thomas Jackson"
 	type = land
 	date="1836.1.1"
-	personality = aggressive
-	background = school_of_defense
+	personality = 3.366_defence
+	background = 1.703_attack
 	picture="european_general_29"
 }
 leader = {

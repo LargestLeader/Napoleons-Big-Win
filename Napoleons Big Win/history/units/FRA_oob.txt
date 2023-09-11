@@ -4,22 +4,22 @@ leader = {
 	type = land
 	date="1836.1.1"
 	personality = daring
-	background = aristocrat
+	background = 3.781_attack
 	prestige = 0.4
 }
 leader = {
 	name = "Jean-de-Dieu Soult"
 	type = land
 	date="1836.1.1"
-	personality = audacious
-	background = artillerist
+	personality = 3.384_defence
+	background = 2.777_attack
 	prestige = 0.4
 }
 leader = {
 	name = "Claude Victor-Perrin"
 	type = land
 	date="1836.1.1"
-	personality = coolminded
+	personality = 2.304_defence
 	background = pawn
 	prestige = 0.4
 }
@@ -70,7 +70,7 @@ leader = {
 	date = 1811.1.1
 	type = sea
 	personality = au_fait
-	background = natural_born_leader
+	background = 4.799_attack
 	prestige = 0.3
 }
 

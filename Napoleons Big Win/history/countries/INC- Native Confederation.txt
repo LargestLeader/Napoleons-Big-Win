@@ -5,6 +5,7 @@ government = democracy
 plurality = 0.05
 nationalvalue = nv_equality
 literacy = 0.05
+civilized = yes
 
 ruling_party = CHE_conservative
 upper_house = {

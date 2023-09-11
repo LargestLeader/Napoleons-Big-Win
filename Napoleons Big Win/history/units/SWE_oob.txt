@@ -3,7 +3,7 @@ leader = {
 	date = 1834.1.1
 	type = sea
 	personality = disciplined
-	background = adventurer
+	background = 3.791_attack
 	prestige = 0.1
 }
 

@@ -2,8 +2,8 @@ leader = {
 	name = "Sam Houston"
 	type = land
 	date="1836.1.1"
-	personality = cautious
-	background = school_of_defense
+	personality = 3.376_defence
+	background = 3.781_attack
 }
 
 

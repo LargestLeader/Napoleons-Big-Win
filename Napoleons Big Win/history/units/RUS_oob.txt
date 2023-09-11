@@ -12,7 +12,7 @@ leader = {
 	date = 1814.1.1
 	type = land
 	personality = daring
-	background = gifted_administrator
+	background = 3.787_attack
 	prestige = 0.3
 }
 
@@ -47,8 +47,8 @@ leader = {
 	name = " Ivan Paskevich"
 	date = 1812.1.1
 	type = land
-	personality = merciless
-	background = school_of_offense
+	personality = 2.318_defence
+	background = 3.787_attack
 	prestige = 0.3
 }
 
@@ -56,8 +56,8 @@ leader = {
 	name = "Matvey Khrapovitsky"
 	date = 1835.1.1
 	type = land
-	personality = able
-	background = war_college
+	personality = 3.374_defence
+	background = 1.689_attack
 	prestige = 0.1
 }
 
@@ -66,7 +66,7 @@ leader = {
 	date = 1827.1.1
 	type = sea
 	personality = au_fait
-	background = innovative_tactician
+	background = 4.799_attack
 	prestige = 0.2
 }
 

@@ -30,7 +30,7 @@ leader = {
 	date = 1836.1.1
 	type = land
 	personality = merciless
-	background = old_school
+	background = 3.791_attack
 	prestige = 0.0
 }
 

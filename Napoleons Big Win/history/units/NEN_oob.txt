@@ -2,8 +2,8 @@ leader = {
 	name = "Ulysses S. Grant"
 	type = land
 	date="1836.1.1"
-	personality = merciless
-	background = uncommonly_young
+	personality = 4.392_defence
+	background = 4.799_attack
 	prestige = 0.2
 	picture="european_general_44"
 }
@@ -12,7 +12,7 @@ leader = {
 	date = 1836.1.1
 	type = land
 	personality = steadfast
-	background = school_of_firepower
+	background = 3.795_attack
 	prestige = 0.3
 }
 leader = {

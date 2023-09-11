@@ -11,7 +11,7 @@ leader = {
 	date = 1836.1.1
 	type = sea
 	personality = daring
-	background = expert_raider
+	background = 5.399_attack
 	prestige = 0.3
 }
 
@@ -19,8 +19,8 @@ leader = {
 	name = "Hugh Gough"
 	date = 1830.1.1
 	type = land
-	personality = dauntless
-	background = school_of_the_bayonet
+	personality = 1.222_defence
+	background = 2.357_attack
 	prestige = 0.1
 }
 
@@ -36,8 +36,8 @@ leader = {
 	name = "Sir George Brown"
 	date = 1836.1.1
 	type = land
-	personality = harsh
-	background = cavalry_school
+	personality = 1.222_defence
+	background = 3.385_attack
 	prestige = 0.0
 }
 leader = {

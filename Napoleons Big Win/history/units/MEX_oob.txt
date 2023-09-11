@@ -2,8 +2,8 @@ leader = {
 	name = "Antonio Santa Ana"
 	type = land
 	date="1836.1.1"
-	personality = wrathful
-	background = warmonger
+	personality = 3.364_defence
+	background = 2.771_attack
 }
 
 leader = {

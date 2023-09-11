@@ -40,6 +40,7 @@
 # Order that CBs are executed in a peace treaty
 peace_order = { 
 treaty_port_casus_belli
+war_reparations
 add_to_sphere 
 take_from_sphere 
 status_quo 
@@ -77,7 +78,7 @@ conquest_low
 british_conquest
 spain_conquest
 napoleonic_spain_take_state
-india_acquire_state
+demand_concession_capital
 negotiated_transfer
 }
 
@@ -2186,19 +2187,21 @@ treaty_port_casus_belli = {
 		}
 	}
 }
-# Indian Unification
-india_acquire_state = {
-	sprite_index = 2
-	months = 12
-	crisis = no
 
-	badboy_factor = 1
-	prestige_factor = 0
-	peace_cost_factor = 1
+# War Reparations
+war_reparations = {
+	sprite_index = 27
+	is_triggered_only = yes
+	months = 12
+	construction_speed = 0.8
+
+	badboy_factor = 0.25
+	prestige_factor = 0.5
+	peace_cost_factor = 20
 	penalty_factor = 1
 
-	break_truce_prestige_factor = 5
-	break_truce_infamy_factor = 2
+	break_truce_prestige_factor = 1
+	break_truce_infamy_factor = 1
 	break_truce_militancy_factor = 1
 	truce_months = 60
 	
@@ -2206,47 +2209,94 @@ india_acquire_state = {
 	good_relation_infamy_factor = 1
 	good_relation_militancy_factor = 1
 	
-	always = no
-
 	can_use = {
-		NOT = { is_our_vassal = THIS }
-		number_of_states = 2
-		neighbour = THIS
-		OR = {
-			any_owned_province = {
-				NOT = { is_core = THIS }
-				is_core = HND
-			}
-			is_culture_group = south_asian
+		war_with = THIS
+		NOT = {
+			is_our_vassal = THIS
+			has_country_modifier = neutrality
+			has_country_modifier = no_more_war
+			has_country_flag = in_great_war
 		}
 		THIS = {
-			is_culture_group = south_asian
+			civilized = yes
+			NOT = { has_country_modifier = neutrality }
 		}
 	}
 	
-	allowed_states = {
-		OR = {
-			any_owned_province = {
-				NOT = { is_core = THIS }
-				is_core = HND
-			}
-			any_owned_province = {
-				owner = { is_culture_group = south_asian}
-				NOT = { is_core = HND }
-			}
-		}
-	}
+	po_reparations = yes
 
-	po_demand_state = yes
-	
-	war_name = WAR_INDIA_REUNIFICATION
+	war_name = WAR_NAME_REPARATIONS
 	
 	on_add = {
 		move_issue_percentage = { 
 			from = jingoism 
 			to = pro_military
-			value = 0.10
+			value = 0.25
 		}
 	}
 }
 
+demand_concession_capital = {
+	sprite_index = 7
+	is_triggered_only = yes
+	months = 12
+	construction_speed = 1
+	
+	badboy_factor = 2.3
+	prestige_factor = 2
+	peace_cost_factor = 1
+	penalty_factor = 1
+
+	break_truce_prestige_factor = 1
+	break_truce_infamy_factor = 2
+	break_truce_militancy_factor = 2
+	truce_months = 60
+	
+	good_relation_prestige_factor = 1
+	good_relation_infamy_factor = 1
+	good_relation_militancy_factor = 1
+
+	can_use = {
+		NOT = { is_our_vassal = THIS }
+		number_of_states = 2 # annex if you want their last state
+		any_owned_province = {
+			not = { is_core = THIS }
+			is_colonial = no
+		}
+			AND = {
+				civilized = no
+				THIS = {
+					civilized = yes
+				}
+		   }
+	}
+	
+	allowed_states = {
+		is_colonial = no
+		any_owned_province = {
+			not = {	is_core = THIS }
+			is_colonial = no
+		}
+		any_owned_province = { is_capital = yes }
+	}
+	
+	allowed_states_in_crisis = {
+		any_owned_province = {
+			any_neighbor_province = {
+				owner = { tag = THIS }
+			}
+		}
+	}		
+
+	po_demand_state = yes
+	
+	war_name = WAR_CONCESSION_NAME
+	
+	on_add = {
+		move_issue_percentage = { 
+			from = jingoism 
+			to = pro_military
+			value = 0.25
+		}
+	}
+}
