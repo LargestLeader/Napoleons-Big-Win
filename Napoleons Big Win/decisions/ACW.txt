@@ -532,6 +532,7 @@ ostend_manifesto = {
 	raise_the_bonnie_blue_flag = {
 		potential = {
 			tag = USA
+			has_global_flag = brown_raid
 			NOT = {
 				OR = {
 					has_country_flag = bonnie_blue_flag

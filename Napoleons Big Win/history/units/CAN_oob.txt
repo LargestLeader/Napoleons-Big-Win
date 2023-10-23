@@ -56,24 +56,6 @@ ILY = {
 	influence_value = 0
       }
 
-INC = {
-	value = 125
-	level = 5
-	influence_value = 25
-}
-
-HUD = {
-	value = 200
-	level = 4
-	influence_value = 25
-}
-
-EIC = {
-	value = 200
-	level = 5
-	influence_value = 25
-}
-
 BRI = {
 	value = -200
 }

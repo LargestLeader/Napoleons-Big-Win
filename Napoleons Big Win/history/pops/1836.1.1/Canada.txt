@@ -2272,7 +2272,7 @@
 	craftsmen = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 3000
+		size = 13000
 	}
 
 	farmers = {

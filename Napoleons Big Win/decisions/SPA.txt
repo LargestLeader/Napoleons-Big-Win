@@ -252,6 +252,7 @@ political_decisions = {
 					vassal_of = FRA
 					is_greater_power = yes
 					war_with = FRA
+					ai = no
 				}
 				OR = {
 					government = absolute_monarchy

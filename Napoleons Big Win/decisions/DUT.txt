@@ -1,38 +1,4 @@
 political_decisions = {
-	accept_java = {
-		potential = {
-			tag = DUT
-			any_owned_province = {
-				is_core = JAV
-			}
-			NOT = {
-				has_country_flag = accepted_javan
-			}
-		}
-
-		allow = {
-			NOT = {
-				exists = JAV
-			}
-			invention = mission_to_civilize
-		}
-
-		effect = {
-			add_accepted_culture = javan
-			set_country_flag = accepted_javan
-			any_pop = {
-				limit = {
-					OR = {
-						culture = javan
-					}
-				}
-				militancy = -2
-			}
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}
 
 	institute_monarchy = {
 		potential = {

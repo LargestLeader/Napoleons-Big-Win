@@ -1,8 +1,7 @@
-owner = INC
-controller = INC
+owner = NEN
+controller = NEN
 
-add_core = INC
-add_core = USA
+add_core = NEN
 
 trade_goods = timber
 life_rating = 35

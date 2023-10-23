@@ -89,13 +89,13 @@ political_decisions = {
 			NOT = {
 				has_country_flag = save_the_austrian_poles
 			}
-			owns = 682
 		}
 		
 		allow = {
 			AND = {
 				nationalism_n_imperialism = 1
 			}
+			owns = 682
 			NOT = {
 				alliance_with = AUS
 			}
@@ -128,7 +128,6 @@ political_decisions = {
 			NOT = {
 				has_country_flag = save_the_russian_poles_1
 			}
-			owns = 702
 		}
 		
 		allow = {
@@ -138,6 +137,7 @@ political_decisions = {
 			NOT = {
 				alliance_with = RUS
 			}
+			owns = 702
 		}
 		
 		effect = {
@@ -161,12 +161,9 @@ political_decisions = {
 	reclaim_russian_poland_2 = {
 		potential = {
 			tag = PLC
+			has_country_flag = save_the_russian_poles_1
 			NOT = {
 				has_country_flag = save_the_russian_poles_2
-			}
-			AND = {
-				owns = 718
-				owns = 955
 			}
 		}
 		
@@ -176,6 +173,10 @@ political_decisions = {
 			}
 			NOT = {
 				alliance_with = RUS
+			}
+			AND = {
+				owns = 718
+				owns = 955
 			}
 		}
 		
@@ -197,8 +198,16 @@ political_decisions = {
 	reclaim_russian_poland_3 = {
 		potential = {
 			tag = PLC
+			has_country_flag = save_the_russian_poles_2
 			NOT = {
 				has_country_flag = save_the_russian_poles_3
+			}
+		}
+		
+		allow = {
+			nationalism_n_imperialism = 1
+			NOT = {
+				alliance_with = RUS
 			}
 			AND = {
 				owns = 718
@@ -207,18 +216,9 @@ political_decisions = {
 			}
 		}
 		
-		allow = {
-			AND = {
-				nationalism_n_imperialism = 1
-			}
-			NOT = {
-				alliance_with = RUS
-			}
-		}
-		
 		effect = {
 			set_country_flag = save_the_russian_poles_3
-			RUS_958 = {
+			RUS_947 = {
 				add_core = PLC
 			}
 			relation = {
@@ -646,6 +646,34 @@ political_decisions = {
 
 		ai_will_do = {
 			factor = 1
+		}
+	}
+	polish_bye = {
+        potential = {
+            tag = PLC 
+            NOT = { has_country_flag = polish_bye }
+        }
+        allow = {
+            BYE = { all_core = { owned_by = THIS}}
+			has_country_flag = save_the_russian_poles_3
+        }
+        effect = {
+            add_accepted_culture = byelorussian
+            set_country_flag = polish_bye
+        }
+    }
+	polish_latvia = {
+		potential = {
+			tag = PLC
+			NOT = { has_country_flag = polish_latvia }
+			has_country_flag = save_the_russian_poles_1
+		}
+		allow = {
+			358 = { owned_by = THIS }
+		}
+		effect = {
+			set_country_flag = polish_latvia
+			add_accepted_culture = latvian
 		}
 	}
 }
