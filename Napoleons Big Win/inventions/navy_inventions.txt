@@ -401,7 +401,7 @@ steamer_automatic_construction_plants = {
 steamer_transports = {
 	limit = { steamers = 1 }
 	chance = {
-		base = 100
+		base = 5
 		modifier = {
 			factor = 2
 			mechanical_production = 1
@@ -418,7 +418,7 @@ steamer_transports = {
 commerce_raiders = {
 	limit = { steamers = 1 }
 	chance = {
-		base = 100
+		base = 5
 		modifier = {
 			factor = 1
 			fire_control_systems = 1
@@ -436,7 +436,7 @@ commerce_raiders = {
 ironclads = {
 	limit = { iron_steamers = 1 }
 	chance = {
-		base = 100
+		base = 5
 		modifier = {
 			factor = 2
 			invention = monitors
@@ -453,7 +453,7 @@ ironclads = {
 monitors = {
 	limit = { iron_steamers = 1 }
 	chance = {
-		base = 100
+		base = 5
 		modifier = {
 			factor = 2
 			invention = ironclads
@@ -491,7 +491,7 @@ torpedo_boats = {
 protected_cruisers = {
 	limit = { steel_steamers = 1 }
 	chance = {
-		base = 100
+		base = 3
 		modifier = {
 			factor = 2
 			invention = ironclads
@@ -532,7 +532,7 @@ protected_cruisers = {
 pre_dreadnought = {
 	limit = { steel_steamers = 1 }
 	chance = {
-		base = 100
+		base = 5
 		modifier = {
 			factor = 2
 			invention = ironclads
@@ -559,7 +559,7 @@ pre_dreadnought = {
 dreadnoughts = {
 	limit = { steam_turbine_ships = 1 }
 	chance = {
-		base = 100
+		base = 5
 		modifier = {
 			factor = 2
 			invention = pre_dreadnought

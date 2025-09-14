@@ -268,7 +268,7 @@ trench_systems = {
 gas_attack_capability = {
 	limit = { military_directionism = 1 }
 	chance = {
-		base = 100
+		base = 0
 		modifier = {
 			factor = 2
 			invention = cracking
@@ -285,7 +285,7 @@ gas_attack_capability = {
 gas_defense_capability = {
 	limit = { military_directionism = 1 }
 	chance = {
-		base = 100
+		base = 0
 		modifier = {
 			factor = 5
 			war = yes
@@ -467,7 +467,7 @@ stormtrooper_training = {
 tank_experiments = {
 	limit = { infiltration = 1 }
 	chance = {
-		base = 100
+		base = 1
 		modifier = {
 			factor = 2
 			invention = elastic_defense_system
@@ -478,7 +478,7 @@ tank_experiments = {
 			war_countries = { invention = tank_experiments }
 		}
 		modifier = {
-			factor = -100
+			factor = -5
 			not = { combustion_engine = 1 }
 		}
 	}
@@ -510,7 +510,7 @@ tank_exploits = {
 			attack = 2
 			defence = 4
 			supply_consumption = 1
-			siege = 2				
+			siege = 1				
 		}	
 	}
 }
@@ -756,7 +756,7 @@ breech_loaded_rifle_armament = {
 machine_gun_armament = {
 	limit = { machine_guns = 1 }
 	chance = {
-		base = 100
+		base = 5
 		modifier = {
 			factor = 2
 			war = yes
@@ -800,22 +800,22 @@ machine_gun_armament = {
 }
 colonial_negotiations = {
 	limit = { 
-			year = 1880
+			year = 1870 
 			breech_loaded_rifles = 1
 			}
 	news = no
 	chance = {
 		base = 0
 		modifier = {
-			factor = 100
+			factor = 25
 			machine_guns = 1
 		}
 		modifier = {
-			factor = 100
+			factor = 25
 			economic_responsibility = 1 
 		}
 		modifier = {
-			factor = 100
+			factor = 25
 			naval_logistics = 1 
 		}
 		modifier = {
@@ -830,10 +830,6 @@ colonial_negotiations = {
 				invention = colonial_negotiations
 			}
 		}
-		modifier = {
-			factor = -1000
-			NOT = { year = 1880 }
-		}
 	}
 	effect = {
 		colonial_life_rating = -10 
@@ -843,7 +839,7 @@ colonial_negotiations = {
 bolt_action_rifle_armament = {
 	limit = { bolt_action_rifles = 1 }
 	chance = {
-		base = 100
+		base = 5
 		modifier = {
 			factor = 2
 			war = yes
@@ -1161,7 +1157,7 @@ heavy_artillery = {
 cuirassier_activation = {
 	limit = { military_staff_system = 1 }
 	chance = {
-		base = 100
+		base = 2
 		modifier = {
 			factor = -2
 			not = { civilized = yes }
@@ -1174,7 +1170,7 @@ cuirassier_activation = {
 dragoon_activation = {
 	limit = { military_staff_system = 1 }
 	chance = {
-		base = 100
+		base = 2
 		modifier = {
 			factor = -2
 			not = { civilized = yes }
@@ -1187,7 +1183,7 @@ dragoon_activation = {
 hussar_activation = {
 	limit = { military_staff_system = 1 }
 	chance = {
-		base = 100
+		base = 2
 		modifier = {
 			factor = -2
 			not = { civilized = yes }
@@ -1449,14 +1445,14 @@ army_local_military_government = {
 military_aviation = {
 	limit = { aeronautics = 1 }
 	chance = {
-		base = 100
+		base = 3
 		modifier = {
 			factor = 2
 			war = yes
 			war_countries = { invention = military_aviation }
 		}
 		modifier = {
-			factor = -100
+			factor = -5
 			not = { invention = wright_n_langleys_aeroplanes }
 		}
 	}

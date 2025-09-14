@@ -242,50 +242,6 @@ political_decisions = {
                 }
         }
 
-	attempt_annex_NSA = {
-                potential = {
-                        tag = SPA
-                   	NOT = { has_country_flag = attempt_NSA }
-			exists = NSA
-			NSA = {
-				NOT = {
-					vassal_of = FRA
-					is_greater_power = yes
-					war_with = FRA
-					ai = no
-				}
-				OR = {
-					government = absolute_monarchy
-					government = prussian_constitutionalism
-					government = hms_government
-					government = democracy
-				}
-			}     
-                }
-               
-                allow = {
-                        war = no
-                        NSA = {
-				NOT = {
-					vassal_of = FRA
-					is_greater_power = yes
-				}
-			}
-                }
-               
-                effect = {
-                        set_country_flag = attempt_NSA
-                        NSA = {
-                        	country_event = 600034
-                        }
-			prestige = 15
-                }
-               
-                ai_will_do = {
-                        factor = 1
-                }
-        }
-
 	move_home_SPA = {
 		potential = {
 			tag = SPA

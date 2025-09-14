@@ -408,29 +408,4 @@ political_decisions = {
 			factor = 1
 		}
 	}
-
-	spanish_resto = {
-                potential = {
-                        tag = ILY
-                        NOT = { has_country_flag = resto_negotiate }
-			exists = SPA
-                }
-               
-                allow = {
-                        war = no
-                        prestige = 1	
-                }
-               
-                effect = {
-                        set_country_flag = resto_negotiate
-                        SPA = {
-                        	country_event = 600027
-                        }
-			prestige = 5
-                }
-               
-                ai_will_do = {
-                        factor = 1
-                }
-        }
 }

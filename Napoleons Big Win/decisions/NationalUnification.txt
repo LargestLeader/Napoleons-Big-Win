@@ -497,7 +497,6 @@ unite_moldavia_wallachia = {
 		
 		allow = {
 			is_greater_power = yes
-			prestige = 45
 			war = no
 			GER = {
 				all_core = {
@@ -551,7 +550,7 @@ unite_moldavia_wallachia = {
 		}
 		
 		allow = {
-			prestige = 45
+			state_n_government = 1
 			war = no
 			owns = 726
 			owns = 754
@@ -1152,9 +1151,9 @@ unite_moldavia_wallachia = {
 				change_province_name = "Kolmar"
 			}
 			409 = {
-				change_province_name = "Straßburg"
+				change_province_name = "Straï¿½burg"
 				state_scope = {
-					change_region_name = "Elsaß-Lothringen"
+					change_region_name = "Elsaï¿½-Lothringen"
 				}
 			}
 			prestige = 5

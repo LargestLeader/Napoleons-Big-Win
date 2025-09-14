@@ -404,12 +404,8 @@ no_personality = {
 }
 personality = {
 no_background = {
-		attack = -2
-		defence = -2
-		morale = -0.20
-		organisation = -0.20
-		speed = -0.10
-		experience = -0.5
+		attack = 0
+		defence = 0
 }
 0.14_defence = { defence=0 }
 -4.002_defence = { defence=-4 }

@@ -1,0 +1,61 @@
+political_decisions = {
+	tanzimat_reforms_but_better = {
+		potential = {
+			tag = TUR
+			NOT = {
+				has_country_flag = tanzimat_reforms_enacted
+			}
+		}
+		
+		allow = {
+			nationalism_n_imperialism = 1
+		}
+		
+		effect = {
+			any_pop = {
+				limit = {
+					NOT = {
+						has_pop_culture = turkish
+					}
+				}
+				militancy = -3
+				consciousness = 1
+			
+			}
+			any_pop = {
+				is_accepted_culture = yes
+				ideology = {
+					value = reactionary
+					factor = 0.1
+				}
+				ideology = {
+					value = liberal
+					factor = 0.1
+				}
+				scaled_militancy = {
+					ideology = reactionary
+					factor = 9
+				}
+				scaled_militancy = {
+					ideology = liberal
+					factor = -9
+				}
+				scaled_militancy = {
+					ideology = conservative
+					factor = 4
+				}
+				scaled_militancy = {
+					ideology = socialist
+					factor = -9
+				}
+			}
+			add_accepted_culture = greek
+			add_accepted_culture = mashriqi
+			add_accepted_culture = albanian
+			add_accepted_culture = bosniak
+			add_accepted_culture = misri
+			add_accepted_culture = bedouin
+			set_country_flag = tanzimat_reforms_enacted
+	}
+    }
+}

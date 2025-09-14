@@ -226,7 +226,7 @@ mechanical_saw = {
 mechanical_precision_saw = {
 	limit = { mechanical_production = 1 }
 	chance = {
-		base = 100
+		base = 2
 		modifier = {
 			factor = 2
 			invention = mechanical_saw
@@ -318,7 +318,7 @@ mechanized_slaughtering_block = {
 precision_work = {
 	limit = { mechanical_production = 1 }
 	chance = {
-		base = 100
+		base = 2
 		modifier = {
 			factor = 2
 			invention = mechanical_precision_saw
@@ -729,7 +729,7 @@ advanced_ore_roasting_processes = {
 	}
 	effect = {
 		rgo_goods_output = {
-			iron = 0.6
+			iron = 0.4
 		}
 	}
 }
@@ -748,7 +748,7 @@ advanced_ore_grinding_processes = {
 	}
 	effect = {
 		rgo_goods_output = {
-			iron = 0.4
+			iron = 0.25
 		}
 	}
 }
@@ -767,7 +767,7 @@ advanced_ore_smelting_processes = {
 	}
 	effect = {
 		rgo_goods_output = {
-			iron = 0.4
+			iron = 0.25
 		}
 	}
 }

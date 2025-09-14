@@ -392,3 +392,11 @@ D48		= "countries/D48.txt"
 D49		= "countries/D49.txt"
 D50		= "countries/D50.txt"
 
+##State Flags
+TIN = "countries/Tiny State.txt"
+SMA = "countries/Small State.txt"
+MED = "countries/Medium State.txt"
+LRG = "countries/Large State.txt"
+HUG = "countries/Huge State.txt"
+GHO = "countries/Ghost Country.txt"
+LCT = "countries/Liechtenstein.txt"
