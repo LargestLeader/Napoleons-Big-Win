@@ -2972,3 +2972,48 @@ country_event = {
 		}
 	}
 }
+
+country_event = {
+	
+	id = 97671
+	title = "EVTNAME97670" #The Northern Islands
+	desc = "EVTDESC97670"
+	picture = "Southpole3"
+	
+	trigger = {
+		tag = CHI
+		NOT = { has_country_modifier = china_civ_nerf }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = "Joever"
+		civilized = no
+		add_country_modifier = { name = china_civ_nerf duration = -1 }
+	}
+}
+
+country_event = {
+	
+	id = 97672
+	title = "EVTNAME97670" #The Northern Islands
+	desc = "EVTDESC97670"
+	picture = "Southpole3"
+	
+	trigger = {
+		tag = CHI
+		civilized = yes
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = "Joever"
+		civilized = no
+	}
+}

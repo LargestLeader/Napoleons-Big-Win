@@ -285,25 +285,25 @@ army = {
 	location = 425
 	regiment = {
 		name= "1.Guarde Imperiale"
-		type = guard
+		type = infantry
 		home = 425
 	}
 
 	regiment = {
 		name= "2.Guarde Imperiale"
-		type = guard
+		type = infantry
 		home = 426
 	}
 
 	regiment = {
 		name= "3.Guarde Imperiale"
-		type = guard
+		type = infantry
 		home = 427
 	}
 
 	regiment = {
 		name= "4.Guarde Imperiale"
-		type = guard
+		type = infantry
 		home = 440
 	}
 }
