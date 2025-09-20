@@ -38,7 +38,7 @@ army = {
 	location = 322
 	regiment = {
 		name= "Svea Livgarde"
-		type = guard
+		type = infantry
 		home = 322
 	}
 
