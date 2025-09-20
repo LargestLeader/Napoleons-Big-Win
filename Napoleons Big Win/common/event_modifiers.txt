@@ -1255,3 +1255,8 @@ treaty_port = {
 	farm_rgo_size = 8
 	icon = 8
 }	
+
+#China Nerf
+china_civ_nerf = {
+	research_points_modifier = -1.0
+}
