@@ -15,40 +15,40 @@ leader = {
 }
 
 army = {
-	name = "Ejército del Norte"
+	name = "Ejï¿½rcito del Norte"
 	location = 2146
 	regiment = {
 		name= "1.Division Cos"
-		type = irregular
+		type = infantry
 		home = 2174
 	}
 
 	regiment = {
 		name= "2.Division Cos"
-		type = irregular
+		type = infantry
 		home = 2174
 	}
 
 	regiment = {
 		name= "3.Division Cos"
-		type = irregular
+		type = infantry
 		home = 2174
 	}
 	regiment = {
 		name= "1.Oajaca y Tlaxcala"
-		type = irregular
+		type = infantry
 		home = 2177
 	}
 
 	regiment = {
 		name= "2.Oajaca y Tlaxcala"
-		type = irregular
+		type = infantry
 		home = 2177
 	}
 
 	regiment = {
 		name= "3.Oajaca y Tlaxcala"
-		type = irregular
+		type = infantry
 		home = 2177
 	}
 	regiment = {
@@ -59,13 +59,13 @@ army = {
 
 	regiment = {
 		name= "2.Division Comonfort"
-		type = irregular
+		type = infantry
 		home = 2176
 	}
 
 	regiment = {
 		name= "3.Division Comonfort"
-		type = irregular
+		type = infantry
 		home = 2176
 	}
 

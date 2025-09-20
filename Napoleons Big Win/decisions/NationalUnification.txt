@@ -554,7 +554,6 @@ unite_moldavia_wallachia = {
 			war = no
 			owns = 726
 			owns = 754
-			year = 1848
 		}
 		
 		effect = {
@@ -634,11 +633,10 @@ unite_moldavia_wallachia = {
 		}
 		
 		allow = {
-			prestige = 45
+			state_n_government = 1
 			war = no
 			owns = 726
 			owns = 754
-			year = 1848
 		}
 		
 		effect = {
@@ -718,11 +716,10 @@ unite_moldavia_wallachia = {
 		}
 		
 		allow = {
-			prestige = 45
+			state_n_government = 1
 			war = no
 			owns = 726
 			owns = 754
-			year = 1848
 		}
 		
 		effect = {
@@ -802,11 +799,10 @@ unite_moldavia_wallachia = {
 		}
 		
 		allow = {
-			prestige = 45
+			state_n_government = 1
 			war = no
 			owns = 726
 			owns = 754
-			year = 1848
 		}
 		
 		effect = {
@@ -886,11 +882,10 @@ unite_moldavia_wallachia = {
 		}
 		
 		allow = {
-			prestige = 45
+			state_n_government = 1
 			war = no
 			owns = 726
 			owns = 754
-			year = 1848
 		}
 		
 		effect = {
@@ -970,11 +965,10 @@ unite_moldavia_wallachia = {
 		}
 		
 		allow = {
-			prestige = 45
+			state_n_government = 1
 			war = no
 			owns = 726
 			owns = 754
-			year = 1848
 		}
 		
 		effect = {

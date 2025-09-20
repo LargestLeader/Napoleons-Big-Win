@@ -53,7 +53,7 @@ leader = {
 }
 
 leader = {
-	name = "Abdülkerim Pasha"
+	name = "Abdï¿½lkerim Pasha"
 	date = 1836.1.1
 	type = land
 	personality = active_p
@@ -188,44 +188,44 @@ army = {
 	}
 
 	regiment = {
-		name= "1. Piyade Tümeni"
+		name= "1. Piyade Tï¿½meni"
 		type = infantry
 		home = 802
 	}
 
 	regiment = {
-		name= "2. Piyade Tümeni"
+		name= "2. Piyade Tï¿½meni"
 		type = infantry
 		home = 803
 	}
 
 	regiment = {
-		name= "3. Piyade Tümeni"
+		name= "3. Piyade Tï¿½meni"
 		type = infantry
 		home = 803
 	}
 
 	regiment = {
-		name= "4. Piyade Tümeni"
+		name= "4. Piyade Tï¿½meni"
 		type = artillery
 		home = 804
 	}
 
 	regiment = {
 		name= "1. Redif Izmir"
-		type = irregular
+		type = infantry
 		home = 806
 	}
 
 	regiment = {
 		name= "2. Redif Izmir"
-		type = irregular
+		type = infantry
 		home = 807
 	}
 
 	regiment = {
 		name= "3. Redif Izmir"
-		type = irregular
+		type = infantry
 		home = 807
 	}
 }
@@ -237,19 +237,19 @@ army = {
 
 	regiment = {
 		name= "1. Redif Bursa"
-		type = irregular
+		type = infantry
 		home = 849
 	}
 
 	regiment = {
 		name= "2. Redif Bursa"
-		type = irregular
+		type = infantry
 		home = 850
 	}
 
 	regiment = {
 		name= "3. Redif Bursa"
-		type = irregular
+		type = infantry
 		home = 851
 	}
 
@@ -259,62 +259,62 @@ army = {
 	name = "Army of Anatolia"
 	location = 878
 	regiment = {
-		name= "5. Piyade Tümeni"
+		name= "5. Piyade Tï¿½meni"
 		type = infantry
 		home = 882
 	}
 
 	regiment = {
-		name= "6. Piyade Tümeni"
+		name= "6. Piyade Tï¿½meni"
 		type = infantry
 		home = 884
 	}
 
 	regiment = {
-		name= "7. Piyade Tümeni"
+		name= "7. Piyade Tï¿½meni"
 		type = infantry
 		home = 879
 	}
 
 	regiment = {
-		name= "8. Piyade Tümeni"
+		name= "8. Piyade Tï¿½meni"
 		type = artillery
 		home = 888
 	}
 
 	regiment = {
 		name= "1. Redif Kars"
-		type = irregular
+		type = infantry
 		home = 888
 	}
 
 	regiment = {
 		name= "2. Redif Kars"
-		type = irregular
+		type = infantry
 		home = 887
 	}
 
 	regiment = {
 		name= "3. Redif Kars"
-		type = irregular
+		type = infantry
 		home = 887
 	}
 
 	regiment = {
 		name= "1. Redif Trabzon"
-		type = irregular
+		type = infantry
 		home = 876
 	}
 
 	regiment = {
 		name= "2. Redif Trabzon"
-		type = irregular
+		type = infantry
 		home = 883
 	}
 
 	regiment = {
 		name= "3. Redif Trabzon"
-		type = irregular
+		type = infantry
 		home = 869
 	}
 
@@ -342,38 +342,38 @@ army = {
 	}
 
 	regiment = {
-		name= "9. Piyade Tümeni"
+		name= "9. Piyade Tï¿½meni"
 		type = infantry
 		home = 813
 	}
 
 	regiment = {
-		name= "10. Piyade Tümeni"
+		name= "10. Piyade Tï¿½meni"
 		type = infantry
 		home = 818
 	}
 
 	regiment = {
-		name= "11. Piyade Tümeni"
+		name= "11. Piyade Tï¿½meni"
 		type = infantry
 		home = 674
 	}
 
 	regiment = {
 		name= "1. Redif Diyarbakir"
-		type = irregular
+		type = infantry
 		home = 675
 	}
 
 	regiment = {
 		name= "2. Redif Diyarbakir"
-		type = irregular
+		type = infantry
 		home = 809
 	}
 
 	regiment = {
 		name= "3. Redif Diyarbakir"
-		type = irregular
+		type = infantry
 		home = 814
 	}
 
@@ -383,38 +383,38 @@ army = {
 	name = "Army of Arabia"
 	location = 925
 	regiment = {
-		name= "12. Piyade Tümeni"
+		name= "12. Piyade Tï¿½meni"
 		type = infantry
 		home = 925
 	}
 
 	regiment = {
-		name= "13. Piyade Tümeni"
+		name= "13. Piyade Tï¿½meni"
 		type = infantry
 		home = 925
 	}
 
 	regiment = {
-		name= "14. Piyade Tümeni"
+		name= "14. Piyade Tï¿½meni"
 		type = infantry
 		home = 926
 	}
 
 	regiment = {
 		name= "1. Redif Halab"
-		type = irregular
+		type = infantry
 		home = 923
 	}
 
 	regiment = {
 		name= "2. Redif Halab"
-		type = irregular
+		type = infantry
 		home = 923
 	}
 
 	regiment = {
 		name= "3. Redif Halab"
-		type = irregular
+		type = infantry
 		home = 923
 	}
 
@@ -440,14 +440,14 @@ army = {
 	name = "Army of the Bey of Benghazi"
 	location = 1735
 	regiment = {
-		name= "1. Askäris"
-		type = irregular
+		name= "1. Askï¿½ris"
+		type = infantry
 		home = 1735
 	}
 
 	regiment = {
-		name= "2. Askäris"
-		type = irregular
+		name= "2. Askï¿½ris"
+		type = infantry
 		home = 1734
 	}
 }

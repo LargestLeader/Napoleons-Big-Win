@@ -6,7 +6,6 @@ post_napoleonic_thought = {
 	unciv_military = yes
 
 	regular_experience_level = 5
-	activate_unit = infantry_defensive
 	
 	activate_building = fort	
 	army_base = {
@@ -55,7 +54,6 @@ strategic_mobility = {
 	cost = 7200
 	unciv_military = yes
 	regular_experience_level = 5
-	activate_unit = artillery_defensive
 	
 	army_base = {
 		supply_consumption = 0.05
@@ -901,7 +899,6 @@ military_staff_system = {
 	cost = 3600
 	unciv_military = yes
 	reinforce_rate = 0.05
-	activate_unit = infantry_offensive
 	
 	army_base = {
 		default_organisation = 5
@@ -947,7 +944,6 @@ military_plans = {
 	cost = 7200
 	unciv_military = yes
 	reinforce_rate = 0.05
-	activate_unit = artillery_offensive
 	
 	army_base = {
 		default_organisation = 5

@@ -1967,19 +1967,6 @@ acquire_core_state_tiny = {
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		NOT = { tag = JAN }
-		NOT = { 
-			OR = { 
-				has_country_modifier = neutrality
-				has_country_modifier = generic_neutrality
-			}
-		}
-		THIS = { NOT = {
-				OR = {
-					has_country_modifier = neutrality
-					has_country_modifier = generic_neutrality
-				}
-			 } 
-		}
 		number_of_states = 2 # annex if you want their last state
 		any_owned_province = {
 			is_core = THIS
@@ -2033,19 +2020,6 @@ acquire_core_state_small = {
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		NOT = { tag = JAN }
-		NOT = { 
-			OR = { 
-				has_country_modifier = neutrality
-				has_country_modifier = generic_neutrality
-			}
-		}
-		THIS = { NOT = {
-				OR = {
-					has_country_modifier = neutrality
-					has_country_modifier = generic_neutrality
-				}
-			 } 
-		}
 		number_of_states = 2 # annex if you want their last state
 		any_owned_province = {
 			is_core = THIS
@@ -2099,19 +2073,6 @@ acquire_core_state_medium = {
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		NOT = { tag = JAN }
-		NOT = { 
-			OR = { 
-				has_country_modifier = neutrality
-				has_country_modifier = generic_neutrality
-			}
-		}
-		THIS = { NOT = {
-				OR = {
-					has_country_modifier = neutrality
-					has_country_modifier = generic_neutrality
-				}
-			 } 
-		}
 		number_of_states = 2 # annex if you want their last state
 		any_owned_province = {
 			is_core = THIS
@@ -2165,19 +2126,6 @@ acquire_core_state_large = {
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		NOT = { tag = JAN }
-		NOT = { 
-			OR = { 
-				has_country_modifier = neutrality
-				has_country_modifier = generic_neutrality
-			}
-		}
-		THIS = { NOT = {
-				OR = {
-					has_country_modifier = neutrality
-					has_country_modifier = generic_neutrality
-				}
-			 } 
-		}
 		number_of_states = 2 # annex if you want their last state
 		any_owned_province = {
 			is_core = THIS
@@ -2231,19 +2179,6 @@ acquire_core_state_huge = {
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		NOT = { tag = JAN }
-		NOT = { 
-			OR = { 
-				has_country_modifier = neutrality
-				has_country_modifier = generic_neutrality
-			}
-		}
-		THIS = { NOT = {
-				OR = {
-					has_country_modifier = neutrality
-					has_country_modifier = generic_neutrality
-				}
-			 } 
-		}
 		number_of_states = 2 # annex if you want their last state
 		any_owned_province = {
 			is_core = THIS
@@ -3361,7 +3296,7 @@ take_prussian_state = {
 	
 	badboy_factor = 1.4
 	prestige_factor = 2
-	peace_cost_factor = 0.005
+	peace_cost_factor = 0.015
 	penalty_factor = 1
 
 	break_truce_prestige_factor = 1

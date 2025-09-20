@@ -26,31 +26,31 @@ army = {
 	location = 1236
 	regiment = {
 		name= "1.Imperial Guard"
-		type = infantry
+		type = irregular
 		home = 1267
 	}
 
 	regiment = {
 		name= "2.Imperial Guard"
-		type = infantry
+		type = irregular
 		home = 1267
 	}
 
 	regiment = {
 		name= "3.Imperial Guard"
-		type = infantry
+		type = irregular
 		home = 1267
 	}
 
 	regiment = {
 		name= "3.Imperial Guard"
-		type = infantry
+		type = irregular
 		home = 1267
 	}
 
 	regiment = {
 		name= "3.Imperial Guard"
-		type = infantry
+		type = irregular
 		home = 1267
 	}
 

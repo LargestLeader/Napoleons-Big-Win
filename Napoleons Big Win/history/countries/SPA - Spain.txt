@@ -1,7 +1,7 @@
 capital = 2209
-primary_culture = spanish
-culture = basque
-culture = catalan
+primary_culture = caribeno
+culture = mexican
+culture = central_american
 religion = catholic
 government = presidential_dictatorship
 plurality = 25.0
