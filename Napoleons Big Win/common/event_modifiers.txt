@@ -44,7 +44,14 @@ conser_of_qing = {
 	research_points_modifier = -0.60
 	icon = 4
 }
-
+peacetime_mobilization = {
+	ruling_party_support = -0.40
+	loan_interest = 1
+	cb_generation_speed_modifier = -0.2
+	research_points_modifier = -1
+	prestige = -0.05
+	icon = 6
+}
 korea_restoration_boost = {
 	research_points_modifier = 0.3
 	icon = 5
