@@ -92,8 +92,6 @@ great_war_penalty_cb
 take_capital
 conquest_low
 british_conquest
-spain_conquest
-napoleonic_spain_take_state
 negotiated_transfer
 }
 
@@ -1479,121 +1477,6 @@ british_conquest = {
         }
     }
 
-}
-# Spanish Conquest
-spanish_conquest = {
-    sprite_index = 2
-    months = 12
-    crisis = no
-
-    always = yes
-
-    can_use = {
-        NOT = { is_our_vassal = THIS }
-        THIS = {
-            tag = SPA
-            }
-            tag = NSA
-    }
-
-    badboy_factor = 0
-    prestige_factor = 5
-    peace_cost_factor = 0.7
-    penalty_factor = 1
-
-    break_truce_prestige_factor = 5
-    break_truce_infamy_factor = 2
-    break_truce_militancy_factor = 2
-    truce_months = 60
-
-    good_relation_prestige_factor = 1
-    good_relation_infamy_factor = 1
-    good_relation_militancy_factor = 1
-
-
-    po_annex = yes
-
-    war_name = WAR_CONQUEST_NAME
-
-    on_add = {
-        move_issue_percentage = { 
-            from = jingoism 
-            to = pro_military
-            value = 0.25
-        }
-    }
-}
-# Napoleonic Spain take state
-napoleonic_spain_take_state = {
-	sprite_index = 5
-	months = 12
-	
-	always = yes
-
-	construction_speed = 0.8
-	
-	badboy_factor = 0
-	prestige_factor = 5
-	peace_cost_factor = 1
-	penalty_factor = 1
-	always = yes
-
-	break_truce_prestige_factor = 5
-	break_truce_infamy_factor = 2
-	break_truce_militancy_factor = 2
-	truce_months = 60
-	
-	good_relation_prestige_factor = 1
-	good_relation_infamy_factor = 1
-	good_relation_militancy_factor = 1
-
-	can_use = {
-		NOT = { is_our_vassal = THIS }
-		number_of_states = 2 # annex if you want their last state
-		THIS = {tag = NSA}
-		any_owned_province = {
-			OR = {
-			province_id = 474 #Galicia
-				province_id = 477 #LeonCastilla
-				province_id = 481  #Castilla
-				province_id = 487  #Castilla la Nueva
-				province_id = 495 #Aragon
-				province_id = 492 #Vasconia
-				province_id = 502 #Valencia
-				province_id = 509 #Andalucia
-				province_id = 513 #Granada
-			}
-		}
-	}
-	
-	allowed_states = {
-	any_owned_province = {
-		OR = {
-				province_id = 474 #Galicia
-				province_id = 477 #LeonCastilla
-				province_id = 481  #Castilla
-				province_id = 487  #Castilla la Nueva
-				province_id = 495 #Aragon
-				province_id = 492 #Vasconia
-				province_id = 502 #Valencia
-				province_id = 509 #Andalucia
-				province_id = 513 #Granada
-	
-			}
-		}
-	}
-
-	po_demand_state = yes
-	
-	war_name = WAR_TAKE_CORE_NAME
-	
-	on_add = {
-		move_issue_percentage = { 
-			from = jingoism 
-			to = pro_military
-			value = 0.25
-		}
-	}
 }
 #Negotiated Transfer
 negotiated_transfer = {
