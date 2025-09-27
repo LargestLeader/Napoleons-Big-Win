@@ -2096,7 +2096,7 @@ acquire_state_tiny = {
 	months = 12
 	construction_speed = 0.5
 	
-	badboy_factor = 1.1
+	badboy_factor = 2
 	prestige_factor = 2
 	peace_cost_factor = 0.003
 	penalty_factor = 1
@@ -2116,7 +2116,6 @@ acquire_state_tiny = {
 		NOT = { tag = JAN }
 		NOT = { tag = CHI }
 		this = { NOT = { tag = CHI } }
-		this = { NOT = { badboy = 1 } }
 		number_of_states = 2 # annex if you want their last state
 		any_owned_province = {
 			not = { is_core = THIS }
@@ -2184,7 +2183,7 @@ acquire_state_small = {
 	months = 12
 	construction_speed = 0.5
 	
-	badboy_factor = 1.1
+	badboy_factor = 2
 	prestige_factor = 2
 	peace_cost_factor = 0.006
 	penalty_factor = 1
@@ -2204,7 +2203,6 @@ acquire_state_small = {
 		NOT = { tag = JAN }
 		NOT = { tag = CHI }
 		this = { NOT = { tag = CHI } }
-		this = { NOT = { badboy = 1 } }
 		number_of_states = 2 # annex if you want their last state
 		any_owned_province = {
 			not = { is_core = THIS }
@@ -2273,7 +2271,7 @@ acquire_state_medium = {
 	months = 12
 	construction_speed = 0.5
 	
-	badboy_factor = 1.1
+	badboy_factor = 2
 	prestige_factor = 2
 	peace_cost_factor = 0.008
 	penalty_factor = 1
@@ -2293,7 +2291,6 @@ acquire_state_medium = {
 		NOT = { tag = JAN }
 		NOT = { tag = CHI }
 		this = { NOT = { tag = CHI } }
-		this = { NOT = { badboy = 1 } }
 
 		number_of_states = 2 # annex if you want their last state
 		any_owned_province = {
@@ -2363,7 +2360,7 @@ acquire_state_large = {
 	months = 12
 	construction_speed = 0.5
 	
-	badboy_factor = 1.1
+	badboy_factor = 2
 	prestige_factor = 2
 	peace_cost_factor = 0.012
 	penalty_factor = 1
@@ -2383,7 +2380,6 @@ acquire_state_large = {
 		NOT = { tag = JAN }
 		NOT = { tag = CHI }
 		this = { NOT = { tag = CHI } }
-		this = { NOT = { badboy = 1 } }
 
 		number_of_states = 2 # annex if you want their last state
 		any_owned_province = {
@@ -2454,7 +2450,7 @@ acquire_state_huge = {
 	months = 12
 	construction_speed = 0.5
 	
-	badboy_factor = 1.1
+	badboy_factor = 2
 	prestige_factor = 2
 	peace_cost_factor = 0.016
 	penalty_factor = 1
@@ -2474,7 +2470,6 @@ acquire_state_huge = {
 		NOT = { tag = JAN }
 		NOT = { tag = CHI }
 		this = { NOT = { tag = CHI } }
-		this = { NOT = { badboy = 1 } }
 
 		number_of_states = 2 # annex if you want their last state
 		any_owned_province = {
@@ -2566,7 +2561,6 @@ demand_concession_casus_belli_tiny = {
 		NOT = { tag = JAN }
 		NOT = { tag = CHI }
 		this = { NOT = { tag = CHI } }
-		this = { NOT = { badboy = 1 } }
 
 		THIS = {
 			civilized = yes
@@ -2627,7 +2621,6 @@ demand_concession_casus_belli_small = {
 		NOT = { tag = JAN }
 		NOT = { tag = CHI }
 		this = { NOT = { tag = CHI } }
-		this = { NOT = { badboy = 1 } }
 
 		THIS = {
 			civilized = yes
@@ -2688,7 +2681,6 @@ demand_concession_casus_belli_medium = {
 		NOT = { tag = JAN }
 		NOT = { tag = CHI }
 		this = { NOT = { tag = CHI } }
-		this = { NOT = { badboy = 1 } }
 
 		THIS = {
 			civilized = yes
@@ -2749,7 +2741,6 @@ demand_concession_casus_belli_large = {
 		NOT = { tag = JAN }
 		NOT = { tag = CHI }
 		this = { NOT = { tag = CHI } }
-		this = { NOT = { badboy = 1 } }
 
 		THIS = {
 			civilized = yes
@@ -2810,7 +2801,6 @@ demand_concession_casus_belli_huge = {
 		NOT = { tag = JAN }
 		NOT = { tag = CHI }
 		this = { NOT = { tag = CHI } }
-		this = { NOT = { badboy = 1 } }
 
 		THIS = {
 			civilized = yes
@@ -2868,7 +2858,6 @@ place_in_the_sun_tiny = {
 		NOT = { tag = JAN }
 		NOT = { tag = CHI }
 		this = { NOT = { tag = CHI } }
-		this = { NOT = { badboy = 1 } }
 
 		any_owned_province = {
 			is_colonial = yes
@@ -2935,7 +2924,6 @@ place_in_the_sun_small = {
 		NOT = { tag = JAN }
 		NOT = { tag = CHI }
 		this = { NOT = { tag = CHI } }
-		this = { NOT = { badboy = 1 } }
 
 		any_owned_province = {
 			is_colonial = yes
@@ -3001,7 +2989,6 @@ place_in_the_sun_medium = {
 		NOT = { tag = JAN }
 		NOT = { tag = CHI }
 		this = { NOT = { tag = CHI } }
-		this = { NOT = { badboy = 1 } }
 
 		any_owned_province = {
 			is_colonial = yes
@@ -3067,7 +3054,6 @@ place_in_the_sun_large = {
 		NOT = { tag = JAN }
 		NOT = { tag = CHI }
 		this = { NOT = { tag = CHI } }
-		this = { NOT = { badboy = 1 } }
 
 		any_owned_province = {
 			is_colonial = yes
@@ -3133,7 +3119,6 @@ place_in_the_sun_huge = {
 		NOT = { tag = JAN }
 		NOT = { tag = CHI }
 		this = { NOT = { tag = CHI } }
-		this = { NOT = { badboy = 1 } }
 
 		any_owned_province = {
 			is_colonial = yes
@@ -3197,7 +3182,7 @@ take_prussian_state = {
 		NOT = { tag = JAN }
 		NOT = { tag = CHI }
 		this = { NOT = { tag = CHI } }
-		this = { NOT = { badboy = 1 } }
+
 
 		number_of_states = 2 # annex if you want their last state
 		any_owned_province = {

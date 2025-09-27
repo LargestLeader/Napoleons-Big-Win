@@ -157,6 +157,28 @@ country_event = {
 		
 	}
 }
+
+country_event = {
+	id = 443035
+	title = "EVTNAME443035"
+	desc = "EVTDESC443035"
+	picture = "conscription_marching"
+	
+	trigger = {
+		war = yes
+		has_country_modifier = peacetime_mobilization
+	}
+	
+	mean_time_to_happen = {
+		months = 0
+	}
+	
+	option = {
+		name = "AtWar"
+		remove_country_modifier = peacetime_mobilization
+	}
+}
+
 #Lover Exposed
 country_event = {
 	id = 3101

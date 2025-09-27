@@ -172,7 +172,6 @@ political_decisions = {
 			MEX_2161 = {add_core = THIS}
 			MEX_2173 = {add_core = THIS}
 			capital = 2172
-			MEX = {all_core = {remove_core = MEX}}
 			set_country_flag = reclaim_new_spain
 		}
 	}
