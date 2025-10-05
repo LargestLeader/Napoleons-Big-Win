@@ -6,13 +6,11 @@ political_decisions = {
 		potential = {
 			has_country_flag = showing_host_decisions
 			has_country_flag = host_nation
-			tag = LCT
 			ai = no
 			NOT = { has_global_flag = total_war_cbs_enabled }
 			has_global_flag = total_war_cb_safety_off
 		}
 		allow = { 
-			tag = LCT
 			ai = no
 		}
 		effect = {
@@ -26,13 +24,11 @@ political_decisions = {
 		potential = {
 			has_country_flag = showing_host_decisions
 			has_country_flag = host_nation
-			tag = LCT
 			ai = no
 			NOT = { has_global_flag = total_war_cb_safety_off }
 			NOT = { has_global_flag = total_war_cbs_enabled }
 		}
 		allow = { 
-			tag = LCT
 			ai = no
 		}
 		effect = {
@@ -45,18 +41,17 @@ political_decisions = {
 		alert = no
 		potential = {
 			NOT = { has_global_flag = host_nation_picked }
-			tag = LCT
 			ai = no
 		}
 	
 		allow = {
-			tag = LCT
+			ai = no
 		}
 		
 		effect = {
 			set_global_flag = host_nation_picked
 			set_country_flag = host_nation
-			LCT = {
+			JAN = {
 				country_event = 999990123
 			}
 		}

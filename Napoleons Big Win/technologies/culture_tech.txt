@@ -645,8 +645,6 @@ introspectionism = {
 	cost = 3600
 
 
-	regular_experience_level = 5
-	reinforce_rate = 0.05
 	
 	ai_chance = {
 		factor = 1.01
@@ -674,8 +672,6 @@ associationism = {
 	year = 1836
 	cost = 7200
 
-	regular_experience_level = 5
-	reinforce_rate = 0.05
 	
 	ai_chance = {
 		factor = 1.01
@@ -702,8 +698,6 @@ phenomenalism = {
 	year = 1836
 	cost = 10800
 
-	regular_experience_level = 5
-	reinforce_rate = 0.05
 	
 	ai_chance = {
 		factor = 1.01
@@ -730,8 +724,6 @@ experimental_psychology = {
 	year = 1850
 	cost = 14400
 
-	regular_experience_level = 5
-	reinforce_rate = 0.05
 	
 	ai_chance = {
 		factor = 1.01
@@ -758,8 +750,6 @@ psychoanalysis = {
 	year = 1870
 	cost = 18000
 
-	regular_experience_level = 5
-	reinforce_rate = 0.05
 	
 	ai_chance = {
 		factor = 1.01
@@ -787,8 +777,6 @@ behaviorism = {
 	year = 1900
 	cost = 21600
 
-	regular_experience_level = 5
-	reinforce_rate = 0.05
 	
 	ai_chance = {
 		factor = 1.01
